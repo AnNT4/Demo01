@@ -16,9 +16,14 @@ namespace Demo01
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnDong_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnHien_Click(object sender, EventArgs e)
+        {
+            lblHienThi.Text = "Xin chao!!!";
         }
     }
 }
